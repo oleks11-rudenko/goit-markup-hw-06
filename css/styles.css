@@ -1127,8 +1127,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 
-  width: 20px;
+  width: 16px;
   height: 16px;
 
   fill: transparent;
