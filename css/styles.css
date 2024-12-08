@@ -273,7 +273,7 @@ input {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(/goit-markup-hw-04/images/hero.jpg);
+    url(/goit-markup-hw-06/images/Hero/hero-mob@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -284,6 +284,9 @@ input {
   .hero {
     max-width: 768px;
     padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(/goit-markup-hw-06/images/Hero/hero-tab@1x.jpg);
   }
 }
 
@@ -291,6 +294,9 @@ input {
   .hero {
     max-width: 1440px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(/goit-markup-hw-06/images/Hero/hero-desk@1x.jpg);
   }
 }
 
@@ -593,6 +599,25 @@ input {
 .box {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-ill {
+  width: 288px;
+  height: 280px;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio-ill {
+    width: 356px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .portfolio-ill {
+    width: 360px;
+    height: 300px;
+  }
 }
 
 .overlay {
