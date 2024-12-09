@@ -1168,7 +1168,7 @@ input[type="checkbox"]:checked+.checkbox-text .modal-checkbox .modal-checkbox-ic
 .modal-link {
   color: rgb(77, 90, 229);
   text-decoration: underline solid;
-  text-decoration-skip-ink: nine;
+  text-decoration-skip-ink: none;
   text-underline-offset: auto;
   text-underline-position: from-font;
   line-height: 1.33;
